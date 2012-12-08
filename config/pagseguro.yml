@@ -1,0 +1,13 @@
+development: &development
+  developer: true
+  base: "http://localhost:3000"
+  return_to: "/payments/efetuado"
+  email: bruformulasatibaia@uol.com.br
+
+test:
+  <<: *development
+
+production:
+  authenticity_token: AB60EA43D73B4006AADF06B6DD109AD6
+  email: dahlia.acessorios@gmail.com
+  return_to: "http://www.dahliarosa.com.br/payments/efetuado"
