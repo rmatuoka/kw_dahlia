@@ -6,3 +6,4 @@ tmp/**/
 public/system/**/
 config/database.yml
 config/environment.rb
+config/pagseguro.yml
