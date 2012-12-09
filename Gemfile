@@ -6,7 +6,7 @@ gem 'rails', '3.0.3'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'mysql2', '= 0.2.7'
-gem "nifty-generators", :group => :development
+#gem "nifty-generators", :group => :development
 #gem 'authlogic', :git => 'git://github.com/odorcicd/authlogic.git', :branch => 'rails3'
 #gem 'be9-acl9'
 #gem 'acl9', '0.12'
